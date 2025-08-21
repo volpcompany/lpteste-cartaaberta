@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Graham Investimentos custom colors
+				graham: {
+					blue: 'hsl(var(--graham-blue))',
+					'blue-light': 'hsl(var(--graham-blue-light))',
+					'blue-dark': 'hsl(var(--graham-blue-dark))',
+					black: 'hsl(var(--graham-black))',
+					gray: 'hsl(var(--graham-gray))',
+					'gray-light': 'hsl(var(--graham-gray-light))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +76,22 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-cta': 'var(--gradient-cta)'
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'glow': 'var(--shadow-glow)'
+			},
+			fontFamily: {
+				'inter': ['Inter', 'sans-serif'],
+				'display': ['Inter', 'sans-serif']
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			keyframes: {
 				'accordion-down': {
